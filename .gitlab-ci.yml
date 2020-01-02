@@ -1,0 +1,9 @@
+stages:
+  - analyze
+
+sonar_analyze:
+  stage: analyze
+  script:
+    - sh ci/sonar_analyze.sh
+  tags:
+    - sonar

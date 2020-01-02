@@ -1,0 +1,7 @@
+.vscode
+.python-version
+logs/*
+*.log
+.idea/
+*__pycache__
+nohup.out
